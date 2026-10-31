@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkinLore | Farhana Akhter Talukder</title>
+<meta name="description" content="A PHP web application focused on skincare and dermatology information, built for a course on internet programming tools and technologies.">
+<meta name="author" content="Farhana Akhter Talukder">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Figtree:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css">
+<link rel="stylesheet" href="../dist/output.css">
+<script>(function(){var d=document.documentElement;d.classList.add('js');try{if(localStorage.getItem('fat-theme')==='dark')d.classList.add('dark');}catch(e){}})();</script>
+</head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<canvas id="bg-lattice" class="bg-canvas" aria-hidden="true"></canvas>
+<header class="site-header">
+  <nav class="nav-shell" aria-label="Primary">
+    <a class="brand" href="../index.html" aria-label="Farhana Akhter Talukder, home"><span class="brand-mark" aria-hidden="true">FT</span><span class="brand-name hidden sm:inline">Farhana A. Talukder</span></a>
+    <div class="hidden lg:flex items-center gap-1">
+        <a class="nav-link" href="../index.html#about" data-nav="about"><span class="nav-num">01</span>About</a>
+        <a class="nav-link" href="../index.html#skills" data-nav="skills"><span class="nav-num">02</span>Skills</a>
+        <a class="nav-link" href="../index.html#projects" data-nav="projects"><span class="nav-num">03</span>Projects</a>
+        <a class="nav-link" href="../index.html#achievements" data-nav="achievements"><span class="nav-num">04</span>Achievements</a>
+        <a class="nav-link" href="../index.html#timeline" data-nav="timeline"><span class="nav-num">05</span>Timeline</a>
+        <a class="nav-link" href="../index.html#contact" data-nav="contact"><span class="nav-num">06</span>Contact</a>
+    </div>
+    <div class="flex items-center gap-2">
+      <button type="button" class="theme-switch" role="switch" aria-checked="false" aria-label="Night mode" data-theme-toggle>
+        <span class="theme-knob" aria-hidden="true"></span>
+        <span class="theme-opt theme-day"><i class="ph-duotone ph-sun" aria-hidden="true"></i><span>Day</span></span>
+        <span class="theme-opt theme-night"><i class="ph-duotone ph-moon-stars" aria-hidden="true"></i><span>Night</span></span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="../cv.html">Resume <i class="ph-duotone ph-file-text" aria-hidden="true"></i></a>
+      <button type="button" class="icon-btn lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><i class="ph-duotone ph-list" aria-hidden="true"></i></button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="mobile-menu" hidden>
+    <a class="mobile-link" href="../index.html#about"><span class="nav-num">01</span>About</a>
+    <a class="mobile-link" href="../index.html#skills"><span class="nav-num">02</span>Skills</a>
+    <a class="mobile-link" href="../index.html#projects"><span class="nav-num">03</span>Projects</a>
+    <a class="mobile-link" href="../index.html#achievements"><span class="nav-num">04</span>Achievements</a>
+    <a class="mobile-link" href="../index.html#timeline"><span class="nav-num">05</span>Timeline</a>
+    <a class="mobile-link" href="../index.html#contact"><span class="nav-num">06</span>Contact</a>
+  </div>
+</header>
+<main id="main" class="relative z-10">
+<article class="page pt-10">
+  <nav class="crumbs mb-10" aria-label="Breadcrumb"><a href="../index.html">~</a><span>/</span><a href="index.html">projects</a><span>/</span><span aria-current="page">skinlore</span></nav>
+  <div data-reveal>
+    <span class="tag tone-green">Project</span>
+    <h1 class="h-project max-w-[22ch] mt-5">SkinLore</h1>
+    <p class="prose-muted max-w-[70ch] mt-5">Project for the BSc in Computer Science and Engineering, IIUC.</p>
+  </div>
+  <div class="card overflow-hidden mt-10" data-reveal="scale" style="--d:100ms"><div class="zoom aspect-[16/9] md:aspect-[16/7]"><img class="zoom-bg" src="../assets/projects/skinlore.webp" alt="" aria-hidden="true" decoding="async"><img class="zoom-cover" src="../assets/projects/skinlore.webp" alt="Image for SkinLore" decoding="async"><img class="zoom-contain" src="../assets/projects/skinlore.webp" alt="" aria-hidden="true" decoding="async"></div></div>
+  <div class="grid gap-5 mt-5 lg:grid-cols-3">
+    <section class="card p-6 md:p-10 lg:col-span-2" data-reveal aria-label="Summary">
+      <span class="mono-label">// summary</span>
+      <p class="text-[length:clamp(18px,1.7vw,21px)] leading-relaxed max-w-[56ch]">A PHP web application focused on skincare and dermatology information, built for a course on internet programming tools and technologies.</p>
+      <ul class="flex flex-wrap gap-2 mt-7 tone-green"><li class="pill">PHP</li><li class="pill">Web Application</li></ul>
+    </section>
+    <aside class="card p-6 md:p-8" data-reveal style="--d:100ms" aria-label="At a glance">
+      <span class="mono-label">// at a glance</span>
+      <dl>
+        <div class="kv"><dt>type</dt><dd>Project</dd></div>
+        <div class="kv"><dt>status</dt><dd>Completed</dd></div>
+        <div class="kv"><dt>course</dt><dd>Internet Programming Tools and Technologies</dd></div>
+        <div class="kv"><dt>language</dt><dd>PHP</dd></div>
+        <div class="kv"><dt>institution</dt><dd>IIUC</dd></div>
+      </dl>
+      <a class="btn btn-secondary btn-sm mt-6" href="https://github.com/f-akhter-t/SkinLore" target="_blank" rel="noopener"><i class="ph-duotone ph-github-logo text-[18px]" aria-hidden="true"></i> View source on GitHub</a>
+    </aside>
+  </div>
+  <nav class="grid gap-5 mt-5 md:grid-cols-2" aria-label="More projects">
+    <a class="card card-lift flex flex-col gap-2.5 p-6 text-ink" href="code-checker.html"><span class="meta flex items-center gap-1.5"><i class="ph-duotone ph-arrow-left" aria-hidden="true"></i>previous</span><span class="h-sm text-[20px]">Code Checker</span></a>
+    <a class="card card-lift flex flex-col items-end gap-2.5 p-6 text-right text-ink" href="smart-navigation.html"><span class="meta flex items-center gap-1.5">next<i class="ph-duotone ph-arrow-right" aria-hidden="true"></i></span><span class="h-sm text-[20px]">Smart Navigation</span></a>
+  </nav>
+</article>
+</main>
+<footer class="site-footer page relative z-10 pt-24 pb-10">
+  <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-5 pt-7 border-t">
+    <div class="flex gap-2">
+      <a class="icon-btn social-btn" href="mailto:f.akhter.t13@gmail.com" aria-label="Email Farhana"><i class="ph-duotone ph-envelope-simple" aria-hidden="true"></i></a>
+      <a class="icon-btn social-btn" href="https://github.com/f-akhter-t" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="ph-duotone ph-github-logo" aria-hidden="true"></i></a>
+      <a class="icon-btn social-btn" href="https://www.linkedin.com/in/farhana-a-talukder-613184284" target="_blank" rel="noopener" aria-label="LinkedIn profile"><i class="ph-duotone ph-linkedin-logo" aria-hidden="true"></i></a>
+    </div>
+    <p class="meta">&copy; 2026 Farhana Akhter Talukder</p>
+    <a class="link-arrow" href="#top">Back to top <i class="ph-duotone ph-arrow-up" aria-hidden="true"></i></a>
+  </div>
+</footer>
+
+<script src="../js/config.js"></script>
+<script src="../js/lattice.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

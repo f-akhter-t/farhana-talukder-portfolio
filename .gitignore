@@ -1,0 +1,19 @@
+# Dependencies (recreated by npm install)
+node_modules/
+
+# Vercel CLI link folder
+.vercel/
+
+# Local secrets, if you ever add any
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
